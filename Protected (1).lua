@@ -9,8 +9,6 @@ while true do
     wait()
     workspace.world.npcs.Appraiser.appraiser.appraise:InvokeServer()
     wait()
-    game:GetService("ReplicatedStorage").packages.Net:FindFirstChild("RE/Backpack/Equip"):FireServer(unpack(args))
-    wait()
     workspace.world.npcs.Appraiser.appraiser.appraise:InvokeServer()
     wait()
     workspace.world.npcs.Appraiser.appraiser.appraise:InvokeServer()
