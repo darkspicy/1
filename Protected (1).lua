@@ -1,4 +1,5 @@
 while true do 
+    workspace.world.npcs.Appraiser.appraiser.appraise:InvokeServer()
     wait()
     local args = {
     [1] = game:GetService("Players").LocalPlayer.Backpack.Nessie
